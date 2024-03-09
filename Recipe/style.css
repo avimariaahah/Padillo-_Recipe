@@ -1,0 +1,73 @@
+	.body {
+		background-color:  #ffe6e6;
+		display:flex;
+		justify-content: center;
+		margin: 0;
+		height: 100vh;
+		align-items: center;
+	}
+	.recipe{
+		background-color: #E6E6FA;
+		padding: 150px;
+		border-radius: 20px;
+		box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+	
+	}
+	.container{
+		display: flex;
+		justify-content: center;
+		text-align: center;
+	}
+	.nutrifacts{
+		text-align:left-center;
+	}
+	body {
+            font-family: "Times New Roman", sans-serif;
+            background-color:#FFB6C1;
+            padding: 20px;
+        }
+        .recipe-step {
+            margin-bottom: 20px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .recipe-step p:first-child {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .recipe-step p {
+            margin-bottom: 10px;
+            font-family: "Verdana", sans-serif; 
+            color: #333;
+		}
+		.button-container {
+			position: above;
+			width: 100%;
+			text-align: center;
+		}
+		.left-button {
+			background-color: rgb(230, 181, 219); /* Set background color */
+			color: white; /* Set text color */
+			padding: 10px 20px;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+			text-decoration: none;
+		}
+
+		.right-button {
+			background-color: rgb(230, 181, 219); /* Set background color */
+			color: white; /* Set text color */
+			padding: 10px 20px;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+			text-decoration: none;
+		}
+		
+		.left-button:hover,
+		.right-button:hover {
+			background-color: #ce89aa; /* Change background color on hover */
+		}
